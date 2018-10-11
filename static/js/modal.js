@@ -1,0 +1,3 @@
+$('.bustimings').click(function(){var buttonId=$(this).attr('id');$('#modal-container').removeAttr('class').addClass(buttonId);$('.map._1').addClass('modal-active');})
+$('#modal-container').click(function(){$(this).addClass('out');$('.map._1').removeClass('modal-active');});$('.sectobits').click(function(){var buttonId=$(this).attr('id');$('#modal-container1').removeAttr('class').addClass(buttonId);$('.map._1').addClass('modal-active');})
+$('#modal-container1').click(function(){$(this).addClass('out');$('.map._1').removeClass('modal-active');});
