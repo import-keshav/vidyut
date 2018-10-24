@@ -153,7 +153,7 @@
                         var e = o(this).get(0);
                         e.pause(), e.currentTime = 0
                     }), "fact" == r ? (f.addClass("_onFact"), o(".iPhone-video-placeholder").next().fadeOut()) : (f.removeClass("_onFact"), o(".iPhone-video-placeholder").next().fadeIn()), "nicer_way" == r, "tours" == r && (setTimeout(function() {
-                        o(".tour-nyc").airport(["VIDYUT 2017"])
+                        o(".tour-nyc").airport(["VIDYUT 2018"])
                     }, 600)), "map" == r && (l.updateDimentions(), l.put(), o(".phone-map").show()), "slides" == r && (o.isDevice || (o(".swiper-slide-active .js-video__slides").eq(0).parent().prev(".iPhone-video-placeholder").fadeOut())), "about" == r && o(".about-parallax-item, .about-rows ._row img").removeClass("_moveDown"), "subscribe" == r && (o(".subscribe-parallax-item").removeClass("_moveDown"), "down" == n && o(".about-parallax-item, .about-rows ._row img").addClass("_moveDown")), "about" == r || "subscribe" == r || "share" == r ? f.addClass("_hidden") : f.removeClass("_hidden"), "fact" == v[0] ? t > 1 && y.swipeTo(t - 2) : y.swipeTo(t - 1), "share" == r ? ("down" == n && o(".subscribe-parallax-item").addClass("_moveDown"), setTimeout(function() {
                         shareParallax.parallax("enable")
                     }, 400)) : shareParallax.parallax("disable"), "tours" == r ? setTimeout(function() {
