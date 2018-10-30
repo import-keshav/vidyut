@@ -3988,16 +3988,35 @@ only screen and (min-resolution:2dppx) {
 .share-slide-socials ._soc-item a:hover span {
     display: block
 }
-
+/* changed position of facebook icon*/
 .share-slide-socials ._soc-item a._facebook {
     background-image: url(../img/slider/share/fb.png);
     transition: all .2s ease-in-out;
     background-size: auto 40%;
+    position: absolute;
+    left:37%;
+    top:3%;
+    width:300px;
+    height:200px;
 }
-
+/* added instagram icon and adjusted its position*/
 .share-slide-socials ._soc-item a._ig {
     background-image: url(../img/slider/share/ig.png);
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
+    background-size: auto 24%;
+    position: absolute;
+    /*display: flex;*/
+    margin-left: 650px;
+    margin-right: 400px;
+    margin-bottom: 140px;
+    margin-top: -258px;
+}
+/* css code for share on instagram text*/
+.share-slide-socials ._soc-item .ig1
+{
+  position: absolute;
+  margin-top: -240px;
+  margin-bottom: 60px;
 }
 
 .share-slide-socials ._soc-item a._twitter {
